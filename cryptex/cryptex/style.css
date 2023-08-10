@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#222831;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: aliceblue;
+}
+nav{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+    
+}
+nav ul{
+    flex: 1;
+    scroll-behavior: smooth;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    scroll-behavior: smooth;
+}
+nav li a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content{
+    margin-top: 0%;
+}
+.content h1{
+    font-size:88px ;
+    margin-bottom: 15px;
+}
+.content .form{
+    display: inline-block;
+    margin: 30px;
+    background: rgb(0, 0, 0);
+    padding: 15px 30px;;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.form .normal{
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    box-sizing: 100px;
+}
+.form .text{
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    border: none;
+    box-sizing: 100px;
+}
+.faq-section h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.faq-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    color: #555;
+}
+.feature ul{
+    display: flex;
+    justify-content: space-between ;
+    list-style:none;
+    padding:2rem;
+    color:#808b97;
+}
+.feature h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+
+}
+.terminal h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(238, 232, 221);
+    scroll-behavior: smooth;
+}
+.terminal p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #808b97;
+}
+.terminal .tradingview-widget-container{
+    height: fit-content;
+
+}
+.news-feed h1{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    color: #fff;
+    scroll-behavior: smooth;
+    padding-top: 200px;
+
+}
+.news-feed {
+    display: flex;
+}
+.news-feed .tradingview-widget-container1{
+    padding-right: 100px;
+    padding-top: 150px;
+}
+.news-feed .tradingview-widget-container2{
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+

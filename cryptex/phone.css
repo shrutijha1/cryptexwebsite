@@ -1,0 +1,36 @@
+.feature{
+    flex-direction: column;
+}
+.news-feed{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    
+}
+.nav{
+    flex-direction: column;
+}
+.content{
+    height: 370px;
+    padding-top: 100px;
+    scroll-padding-bottom: 100px ;
+
+}
+.content ::before{
+    height: 480px;
+}
+#faq{
+    flex-direction: column;
+}
+.content p{
+    font-size:.9rem;
+}
+.container{
+    scroll-padding-bottom: 100px ;
+}
+.news-feed .tradingview-widget-container1{
+    padding-top: 300px;
+}
+.news-feed h1{
+    padding-top: 300px;
+}
